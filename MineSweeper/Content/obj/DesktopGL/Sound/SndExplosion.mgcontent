@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>/home/kari/C/VoldeNuitSampleProject/MineSweeper/Content/Sound/SndExplosion.wav</SourceFile>
+  <SourceTime>2025-09-27T16:51:00.2153515+09:00</SourceTime>
+  <DestFile>/home/kari/C/VoldeNuitSampleProject/MineSweeper/Content/bin/DesktopGL/Sound/SndExplosion.xnb</DestFile>
+  <DestTime>2025-09-27T17:01:14.9080219+09:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2025-06-02T19:31:02+09:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2025-06-02T19:31:02+09:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
