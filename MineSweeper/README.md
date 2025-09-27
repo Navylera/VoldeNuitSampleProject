@@ -2,7 +2,7 @@
 
 </br>
 
-<p align="center"><img src="/MineSweeper.png"></p>
+<p align="center"><img src="MineSweeper.png"></p>
 
 </br>
 
