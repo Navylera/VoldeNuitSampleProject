@@ -26,8 +26,7 @@
     <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.10.*" />
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*" />
     <!-- <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" /> -->
-    <!-- <PackageReference Include="VoldeNuit.Framework" Version="2.1.0" /> -->
-    <Reference Include="VoldeNuit"><HintPath>VoldeNuit.dll</HintPath></Reference>
+    <PackageReference Include="VoldeNuit.Framework" Version="2.3.0" />
 
     <EmbeddedResource Include="Content/Sound/SndClick.wav" />
     <EmbeddedResource Include="Content/Sound/SndExplosion.wav" />
