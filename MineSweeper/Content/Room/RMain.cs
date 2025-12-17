@@ -1,7 +1,7 @@
 // Copyright (c) 2025 Navylera
 
 using VoldeNuit.Framework.Display;
-
+using VoldeNuit.Framework.Instances;
 using static Settings;
 
 namespace MineSweeper;

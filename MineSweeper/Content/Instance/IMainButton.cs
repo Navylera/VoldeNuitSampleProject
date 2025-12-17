@@ -4,12 +4,15 @@ using VoldeNuit.Framework;
 using VoldeNuit.Framework.Instances;
 using VoldeNuit.Framework.Input;
 using VoldeNuit.Framework.Audio;
+using VoldeNuit.Framework.Display;
+using VoldeNuit.Framework.Drawing;
 
 namespace MineSweeper;
 
 using static Heart;
 using static Mouse;
 using static Sound;
+using static VoldeNuit.Framework.Drawing.Draw;
 
 using static Settings;
 
@@ -57,7 +60,9 @@ public class IMainButton: Instance {
                 
                 instance_destroy(typeof(IBoard));
 
-                board = new IBoard();
+                // board = new IBoard();
+
+                Room.room_restart();
             }
         }
 

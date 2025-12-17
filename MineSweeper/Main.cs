@@ -16,6 +16,8 @@ public class Main : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
+    internal static Assembly assembly = Assembly.GetExecutingAssembly();
+
     public Main()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -27,13 +29,13 @@ public class Main : Game
     {
         // TODO: Add your initialization logic here
 
-        InitResolution(640, 480);
+        InitResolution(933, 579);
 
         InitMonoGameEnvironment(Assembly.GetExecutingAssembly(), this, _graphics);
 
         InitEntryPoint(typeof(RMain));
 
-        Configuration.ANGLE_FORMAT = Configuration.AngleFormat.LEGACY;
+        Configuration.ANGLE_FORMAT = Configuration.AngleFormat.RADIAN;
         Configuration.COLOR_FORMAT = Configuration.ColorFormat.ARGB;
 
         base.Initialize();

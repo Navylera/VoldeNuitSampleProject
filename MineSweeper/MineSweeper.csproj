@@ -23,10 +23,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.8.2" />
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.10.*" />
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*" />
-    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" />
-    <PackageReference Include="VoldeNuit.Framework" Version="2.1.0" />
+    <!-- <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" /> -->
+    <!-- <PackageReference Include="VoldeNuit.Framework" Version="2.1.0" /> -->
+    <Reference Include="VoldeNuit"><HintPath>VoldeNuit.dll</HintPath></Reference>
+
+    <EmbeddedResource Include="Content/Sound/SndClick.wav" />
+    <EmbeddedResource Include="Content/Sound/SndExplosion.wav" />
+
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="CollectPackageReferences">
     <Message Text="Restoring dotnet tools (this might take a while depending on your internet speed and should only happen upon building your project for the first time, or after upgrading MonoGame, or clearing your nuget cache)" Importance="High" />
